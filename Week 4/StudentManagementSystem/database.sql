@@ -1,0 +1,8 @@
+
+CREATE TABLE IF NOT EXISTS students (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    course VARCHAR(100) NOT NULL,
+    marks DOUBLE PRECISION NOT NULL
+        CHECK (marks >= 0 AND marks <= 100)
+);
