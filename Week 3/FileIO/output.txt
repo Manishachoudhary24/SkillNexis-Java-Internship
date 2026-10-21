@@ -1,0 +1,8 @@
+easy : 1
+fun : 1
+is : 3
+java : 3
+learn : 1
+learning : 1
+powerful : 1
+to : 1
